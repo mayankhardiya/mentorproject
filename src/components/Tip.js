@@ -63,10 +63,9 @@ this.setState({tokendata:id})
       </nav>
           </div>
           <div className="col-md-9 mt-5 mx-auto">
-             <div id="my-div">             
-            <iframe width="800" height="600" src={`http://ec2-18-234-203-190.compute-1.amazonaws.com:5555/addMentor${this.state.tokendata}`} id="my-iframe" scrolling="no"></iframe>
-            </div>
-
+            <div id="my-div">            
+           <iframe width="800" height="600" src={`http://admin.tradetipsapp.com:5555/addMentor${this.state.tokendata}`} id="my-iframe" scrolling="no"></iframe>
+           </div>
           </div>
         </div>
       </div>
